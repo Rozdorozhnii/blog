@@ -29,6 +29,6 @@
     "typescript": "^5"
   },
   "lint-staged": {
-    "**/*.(ts|tsx|js|css)": "npm run fix-style"
+    "./src/*.(ts|tsx|js|css)": "npm run fix-style"
   }
 }
